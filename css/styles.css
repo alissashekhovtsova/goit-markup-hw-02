@@ -16,7 +16,7 @@ body {
   color: #212121;
   font-family: roboto, sans-serif;
   font-style: normal;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
@@ -41,6 +41,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .header-link:hover,
@@ -95,16 +96,21 @@ body {
   text-transform: uppercase;
 }
 
+.order-button:hover,
+.order-button:focus {
+  background-color: #000000;
+}
+
 .order-button {
+  font-family: inherit;
   color: #e5e5e5;
   background-color: var(--accent-text-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
+  cursor: pointer;
 }
 
 /* Важность */
@@ -113,14 +119,12 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .importance-list {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 /* О студии */
@@ -129,7 +133,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* Команда */
@@ -141,7 +144,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-members {
@@ -149,14 +151,12 @@ body {
   font-size: 16px;
   line-height: 1.19px;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .team-possition {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19px;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* Подвал */
@@ -172,6 +172,12 @@ body {
   color: #ffffff;
   text-decoration: none;
 }
+
+.footer-info:hover,
+.footer-info:focus {
+  color: var(--primary-bg-color);
+}
+
 .footer-info {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -181,7 +187,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 /* Портфолио */
@@ -192,11 +197,10 @@ body {
 /* фильтры */
 .page-filters {
   list-style: none;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 .projects-examples {
   list-style: none;
@@ -211,11 +215,11 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
 }
 .filters-button {
   color: var(--title-text-color);
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 .filters-button:hover,
 .filters-button:focus {
