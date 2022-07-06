@@ -131,9 +131,7 @@ body {
 .importance-title {
   color: var(--title-text-color);
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14px;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 /* О студии */
