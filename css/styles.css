@@ -131,6 +131,7 @@ body {
 /* Важность */
 .importance-title {
   color: var(--title-text-color);
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -142,6 +143,10 @@ body {
   background-color: var(--item-text-color);
 }
 
+.team-title {
+  font-weight: 500;
+  color: var(--title-text-color);
+}
 .team-possition,
 .team-title {
   font-size: 16px;
@@ -174,6 +179,7 @@ body {
 /* фильтры */
 
 .filters-button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -184,7 +190,8 @@ body {
 }
 .filters-button:hover,
 .filters-button:focus {
-  color: var(--accent-text-color);
+  color: var(--logo-text-color);
+  background-color: var(--accent-text-color);
 }
 
 .projects-title {
