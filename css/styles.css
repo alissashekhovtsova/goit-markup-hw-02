@@ -118,7 +118,7 @@ body {
 
 .order-button {
   font-family: inherit;
-  color: var(--primary-bg-color);
+  color: var(--logo-text-color);
   background-color: var(--accent-text-color);
   font-weight: 700;
   font-size: 16px;
